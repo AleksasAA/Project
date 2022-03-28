@@ -1,0 +1,335 @@
+/* /* *{
+    margin: 0;
+
+}
+
+div{
+    background-color: white
+}
+
+p{
+    color: aqua
+
+}
+/* komentaras */
+/* .aprasymas{
+    font-size: 40px;
+}
+
+#VARTOTOJO-VARDAS{
+    background-color: white;
+
+}
+
+a[target="blank"] {
+    font-size: 30px;
+
+
+} */ 
+
+
+/* h1,h2,h3 {
+
+    color: blue;
+
+}
+
+.container .paragrafas {
+    color: black;
+}
+
+.paragrafas .specialus {
+    front-style: italic;
+    front-size: 24px;
+}
+h2.specialus{
+    text-decoration: underline;
+
+}
+a{
+    background-color: brown;
+}
+
+a:active{
+    background-color: black;
+}
+a:hover {
+    background-color: aqua;
+}
+a:focus{
+    background-color: burlywood;
+}
+a:visited {
+    background-color: lightcoral;
+}
+.kitas-paragrafas:first-child {
+    font-size: 24px;
+
+}
+
+.kitas-paragrafas:nth-child(3n+1) {
+    font-size: 40px;
+} */
+/* .kitas-paragrafas{
+    background-color: black;
+    color: aqua;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 1.5;
+} */
+/* 
+.dezute {
+    background-color:blue;
+    max-width: 10%;
+    height: 100px;
+border: 10px solid blue;
+padding: 20px;
+margin:50px;
+box-shadow: 10px 20px 5px 2px black;
+border-radius: 20px 10px 30px 15px;
+ position: relative;
+ left: 100px;
+}
+@media screen and (max-width: 1024px) {
+    .dezute{
+        width: 80%;
+    }
+    
+}
+.dezute p {
+position: absolute;
+
+
+} */ 
+
+/* padding: 20px;
+padding-top: 20px;
+padding-right: 40px;
+padding-left: 60px; */
+
+/* pamoka 4 sprendziamas naujas style
+h1 {
+    text-shadow: 3px 3px 3px darkgray;
+    font-size: 72px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.rectangle {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to bottom left, red, yellow)
+}
+
+.shape-rectangle, .shape-round {
+    width: 200px;
+    height: 200px;
+    background: aqua;
+}
+
+.shape-round {
+    border-radius: 50%;
+    transition:  1s ease-in-out;
+}
+
+.shape-round:hover {
+    background: blue;
+}
+
+button, .button {
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px lavenderblush;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+
+    */
+
+/* .container-flex{
+    display: flex;
+    align-items: flex-start;
+}
+
+.container-flex p {
+    max-width: 20%;
+    border: 1px solid red;
+    
+}
+p:nth-child(2){
+    font-weight: 900;
+    color: blue;
+    order: -1;
+    font-size: 18px;
+}
+.vienas, .du, .trys {
+    border: 1px solid red;
+    flex-grow: 1;
+
+}
+
+.du{
+    flex-grow: 2;
+
+}
+
+.container2 {
+    display: flex;
+    height: 100px;
+}
+
+.trys {
+    felx-grow: 0;
+    flex-shrink: 0;
+    /*width: 100;*/
+   
+    
+
+
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .container {
+        height: 100vh;
+        width: 100%;
+        background-image: url(images/pexels-s-migaj-747964.jpeg);
+        background-position: center;
+        background-size: cover;
+        padding-left: 5%;
+        padding-right: 5%;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 15vh;
+        margin: auto;
+        display: flex;
+        align-items: center;
+
+    }
+    .logo{
+        width: 160px;
+        cursor: pointer;
+    }
+    .facebook {
+        width: 30px;
+        cursor: pointer;   
+    }
+    .insta {
+        width: 28px;
+        cursor: pointer;
+    }
+    .whats{
+        width: 40px;
+        cursor: pointer;
+    }
+    .amazon{
+        width: 40px;
+        cursor: pointer;
+    }
+
+    nav{
+        font-family: fantasy;
+        flex: 1;
+        padding-left: 60px;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style-type: georgian;
+        margin: 0px 130px 20px;
+        
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(15, 15, 15);
+    }
+    .content h1{
+        font-family: cursive;
+        font-size: 60px;
+        font-weight: 100;
+        margin-top: 15px;
+        margin-bottom: -10px;
+        collor: #0d0f1d;
+
+    }
+    .content p{
+        font-family: cursive;
+        font-size: 21px;
+       collor: #070707;
+       
+    }
+    .content {
+        margin-left: 37%;
+        margin-top: 4%;
+
+    }
+   
+
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+    body{
+      margin: 0;
+      padding: 0;
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      background:#fff;
+    }
+    span{
+      position: relative;
+      display: inline-flex;
+      width: 180px;
+      height: 55px;
+      margin: 5 20px;
+      perspective: 1000px;
+    }
+    span a{
+      font-size: 19px;
+      letter-spacing: 1px;
+      transform-style: preserve-3d;
+      transform: translateZ(-25px);
+      transition: transform .25s;
+      font-family: 'Montserrat', sans-serif;
+      
+    }
+    span a:before,
+    span a:after{
+      position: absolute;
+      content: "2022 Travel Blog";
+      height: 55px;
+      width: 180px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 5px solid black;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+    span a:before{
+      color: #fff;
+      background: #000;
+      transform: rotateY(0deg) translateZ(25px);
+    }
+    span a:after{
+      color: #000;
+      transform: rotateX(90deg) translateZ(25px);
+    }
+    span a:hover{
+      transform: translateZ(-25px) rotateX(-90deg);
+    }
+    
+    
